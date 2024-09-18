@@ -73,8 +73,8 @@ module "eks" {
       instance_types = ["t3.small"]
 
       min_size     = 3
-      max_size     = 5
-      desired_size = 5
+      max_size     = 7
+      desired_size = 3
     }
 
     two = {
